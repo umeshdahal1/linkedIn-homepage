@@ -15,24 +15,24 @@ const Header = () => {
           alt="LinkedIn Logo"
         />
       </div>
-      <div className="flex mx-44hover: cursor-pointer">
-        <div className="mx-5">
+      <div className=" flex mx-44hover: cursor-pointer">
+        <div className="mx-5 flex flex-col justify-center items-center">
           <FiTrendingUp className=" fill-black hover:fill-cyan-700 hover:text-cyan-700" />
           <h1>Trending</h1>
         </div>
-        <div className="mx-5 ">
+        <div className="mx-5 flex flex-col justify-center items-center ">
           <RiArticleLine className=" fill-black hover:fill-cyan-700 hover:text-cyan-700" />
           <h>Article</h>
         </div>
-        <div className="mx-5">
+        <div className="mx-5 flex flex-col justify-center items-center">
           <MdPeopleAlt className=" fill-black hover:fill-cyan-700  hover:text-cyan-700" />
           <h1>People</h1>
         </div>
-        <div className="mx-5">
+        <div className="mx-5 flex flex-col justify-center items-center">
           <MdOutlineVideoLibrary className=" fill-black hover:fill-cyan-700  hover:text-cyan-700" />
           <h1>Learning</h1>
         </div>
-        <div className="mx-5">
+        <div className="mx-5 flex flex-col justify-center items-center">
           <PiHandbagSimpleFill className=" fill-black hover:fill-cyan-700  hover:text-cyan-700" />
           <h1>Jobs</h1>
         </div>

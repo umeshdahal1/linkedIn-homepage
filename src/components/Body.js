@@ -9,16 +9,16 @@ const Body = () => {
           <h1 className=" text-amber-700 text-5xl mx-20 mt-20">
             Welcome to your proffesional community
           </h1>
-          <div className=" flex flex-col mx-20 mt-10">
+          <div className=" flex flex-col mx-20 mt-5">
             <label>Email or Phone</label>
-            <div className=" border-2 border-black w-96 h-12 rounded-full  ">
-              <input></input>
+            <div>
+              <input className="border-2 border-black w-96 h-12 rounded-lg p-5" />
             </div>
           </div>
           <div className=" flex flex-col mx-20 mt-5">
             <label>Password</label>
-            <div className=" border-2 border-black w-96 h-12 rounded-full">
-              <input type="text"></input>
+            <div>
+              <input className="border-2 border-black w-96 h-12 rounded-lg p-5"/>
             </div>
           </div>
           <div className=" mx-20 mt-8">
@@ -86,7 +86,7 @@ const Body = () => {
           <button className=" border border-black w-48 h-12 rounded-full mx-1 mt-1  hover:bg-green-200">
             Business Administration
           </button>
-          <button className=" border border-blue-600 w-28 h-12 rounded-full mx-1 mt-1  hover:bg-green-200">
+          <button className=" border border-blue-600 w-28 h-12 rounded-full mx-1 mt-1 hover:bg-green-200">
             Show All
           </button>
         </div>
@@ -144,6 +144,25 @@ const Body = () => {
           </button>
         </div>
       </section>
+      <section className=" flex bg-orange-50 py-40 px-40 justify-center">
+        <div>
+          <h1 className="text-5xl text-amber-700">
+            {" "}
+            Let the right people know you're open to work
+          </h1>
+          <p className=" text-3xl mt-10 mr-5 ">
+            With the Open To Work feature, you can privately tell recruiters or
+            publicly share with the LinkedIn community that you are looking for
+            new job opportunities.
+          </p>
+        </div>
+        <div className="">
+          <img
+            src="https://static.licdn.com/aero-v1/sc/h/dbvmk0tsk0o0hd59fi64z3own"
+            alt=""
+          />
+        </div>
+      </section>
       <section></section>
       <section className=" flex bg-slate-50 items-center justify-around my-10">
         <div className="my-20">
@@ -152,15 +171,21 @@ const Body = () => {
             alt="logo"
           />
           <h1 className=" mt-10 text-3xl">Connect with people who can help</h1>
-          <button className=" mt-10 w-48 h-16 border border-black rounded-full hover:bg-slate-200">Find people you know</button>
+          <button className=" mt-10 w-48 h-16 border border-black rounded-full hover:bg-slate-200">
+            Find people you know
+          </button>
         </div>
         <div className="">
           <img
             src="https://static.licdn.com/aero-v1/sc/h/dkfub4sc7jgzg3o31flfr91rv"
             alt="logo"
           />
-          <h1 className=" mt-10 text-3xl">Learn the skills you need to succeed</h1>
-          <button className=" mt-10 w-96 h-16 border border-black rounded-lg hover:bg-slate-200"> Choose a topic to learn about</button>
+          <h1 className=" mt-10 text-3xl">
+            Learn the skills you need to succeed
+          </h1>
+          <button className=" mt-10 w-96 h-16 border border-black rounded-lg hover:bg-slate-200">
+            Choose a topic to learn about
+          </button>
         </div>
       </section>
     </main>
