@@ -2,8 +2,9 @@ import React from "react";
 import { FiTrendingUp } from "react-icons/fi";
 import { RiArticleLine } from "react-icons/ri";
 import { MdPeopleAlt } from "react-icons/md";
-import {MdOutlineVideoLibrary } from "react-icons/md";
+import { MdOutlineVideoLibrary } from "react-icons/md";
 import { PiHandbagSimpleFill } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -40,9 +41,11 @@ const Header = () => {
           <button className="mx-5  fill-white hover:bg-slate-400 rounded-full hover:text-black py-[12px] px-[24px]">
             Join Now
           </button>
-          <button className=" mx-5 border border-solid fill-white hover:bg-gray-400 border-blue-800 rounded-full text-blue-500 py-[12px] px-[24px]">
-            Sign in
-          </button>
+          <Link to="/signin">
+            <button className=" mx-5 border border-solid fill-white hover:bg-gray-400 border-blue-800 rounded-full text-blue-500 py-[12px] px-[24px]">
+              Sign in
+            </button>
+          </Link>
         </div>
       </div>
     </div>
